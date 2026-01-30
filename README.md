@@ -16,3 +16,23 @@ Inventariar cada imagen con metadatos: fecha, cámara y coordenadas GPS.
 Visualizar el archivo en mapas y dashboards interactivos, preparando el terreno para haroldohorta.com.
 
 https://www.latercera.com/diario-impreso/una-vida-de-alto-vuelo/?utm_source=copilot.com
+
+Legado-Haroldo/
+│
+├── README.md                # Explicación del proyecto, propósito, cómo usar los scripts
+├── requirements.txt         # Librerías necesarias (pandas, Pillow, sqlite3, etc.)
+├── .gitignore               # Ignorar archivos pesados (ej. fotos, CSV grandes, DB)
+│
+├── src/                     # Código fuente
+│   ├── consolidar_inventario.py   # Script principal (consolidación + inventario + GPS)
+│   ├── utils.py             # Funciones auxiliares (hash, exif, gps) si quieres modularizar
+│
+├── data/                    # Archivos generados
+│   ├── inventario_haroldo.csv     # Inventario con metadata
+│   └── indice_fotos.db            # Base de datos SQLite con hashes
+│
+├── docs/                    # Documentación adicional
+│   └── flujo.md             # Explicación del pipeline, pasos y mantras
+│
+└── tests/                   # Carpeta opcional para pruebas unitarias
+
