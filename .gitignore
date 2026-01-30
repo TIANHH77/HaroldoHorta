@@ -1,0 +1,16 @@
+# Ignorar fotos y archivos grandes
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.cr2
+*.nef
+
+# Ignorar CSV y DB generados
+data/inventario_haroldo.csv
+data/indice_fotos.db
+
+# Ignorar entornos virtuales
+venv/
+__pycache__/
+*.pyc
