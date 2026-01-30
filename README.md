@@ -14,3 +14,5 @@ Este repositorio es un intento de ordenar, consolidar y devolver a las pistas es
 Consolidar las fotos en un disco de 28 TB, evitando duplicados y ordenando por fecha.
 Inventariar cada imagen con metadatos: fecha, cámara y coordenadas GPS.
 Visualizar el archivo en mapas y dashboards interactivos, preparando el terreno para haroldohorta.com.
+
+https://www.latercera.com/diario-impreso/una-vida-de-alto-vuelo/?utm_source=copilot.com
